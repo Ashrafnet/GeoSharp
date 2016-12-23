@@ -1,0 +1,5 @@
+D:\Elance\GeoSharp\GeoSharp\bin\Debug\GeoSharp.dll
+D:\Elance\GeoSharp\GeoSharp\bin\Debug\GeoSharp.pdb
+D:\Elance\GeoSharp\GeoSharp\obj\Debug\GeoSharp.csprojResolveAssemblyReference.cache
+D:\Elance\GeoSharp\GeoSharp\obj\Debug\GeoSharp.dll
+D:\Elance\GeoSharp\GeoSharp\obj\Debug\GeoSharp.pdb

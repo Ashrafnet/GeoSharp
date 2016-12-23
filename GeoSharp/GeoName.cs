@@ -14,7 +14,8 @@ namespace GeoSharp
         Facility,               //S
         GeographicLandmark,     //T
         UnderseaLandmark,       //U
-        Vegetation              //V
+        Vegetation ,             //V
+        UNknown
     }
 
     public enum GeoFeatureCode
@@ -160,6 +161,8 @@ namespace GeoSharp
 
         public static GeoFeatureClass CodeToClass(string Class)
         {
+            if (string.IsNullOrWhiteSpace(Class))
+                return GeoFeatureClass.UNknown;
             if(Class.Length != 1)
                 throw new ArgumentException("Invalid Feature Class");
 
